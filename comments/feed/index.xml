@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Mohamed El-Nahla	</title>
-	<atom:link href="/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description>Planning Engineer , Structural BIM Modeler</description>
 	<lastBuildDate>Wed, 21 Jul 2021 16:26:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2021/07/21/hello-world/#comment-1</link>
+		<link>./../../2021/07/21/hello-world/index.html#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 21 Jul 2021 16:26:50 +0000</pubDate>
@@ -38,7 +38,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on Creativity Is More Than by Ryan Adlard		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/creativity-is-more-than/#comment-2</link>
+		<link>./../../2020/04/28/creativity-is-more-than/index.html#comment-2</link>
 
 		<dc:creator><![CDATA[Ryan Adlard]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:21:02 +0000</pubDate>
@@ -52,7 +52,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on Music Player Design by James Rodri		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/music-player-design/#comment-3</link>
+		<link>./../../2020/04/28/music-player-design/index.html#comment-3</link>
 
 		<dc:creator><![CDATA[James Rodri]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:20:27 +0000</pubDate>
@@ -66,7 +66,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on A Song And Dance Act by James Rodri		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/a-song-and-dance-act/#comment-5</link>
+		<link>./../../2020/04/28/a-song-and-dance-act/index.html#comment-5</link>
 
 		<dc:creator><![CDATA[James Rodri]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:19:53 +0000</pubDate>
@@ -80,7 +80,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on A Song And Dance Act by John Doe		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/a-song-and-dance-act/#comment-4</link>
+		<link>./../../2020/04/28/a-song-and-dance-act/index.html#comment-4</link>
 
 		<dc:creator><![CDATA[John Doe]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:19:28 +0000</pubDate>
@@ -94,16 +94,16 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		<item>
 		<title>
 		Comment on By spite about do of allow by Ryan Adlard		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/by-spite-about-do-of-allow/#comment-8</link>
+		<link>./../../2020/04/28/by-spite-about-do-of-allow/index.html#comment-8</link>
 
 		<dc:creator><![CDATA[Ryan Adlard]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:18:38 +0000</pubDate>
 		<guid isPermaLink="false">https://ryancv-demo.bslthemes.com/?p=98#comment-8</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/by-spite-about-do-of-allow/#comment-6&quot;&gt;John Doe&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;./../../2020/04/28/by-spite-about-do-of-allow/index.html#comment-6&quot;&gt;John Doe&lt;/a&gt;.
 
 An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. An has alterum nominavi.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/by-spite-about-do-of-allow/#comment-6">John Doe</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="./../../2020/04/28/by-spite-about-do-of-allow/index.html#comment-6">John Doe</a>.</p>
 <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. An has alterum nominavi.</p>
 ]]></content:encoded>
 		
@@ -111,7 +111,7 @@ An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimat
 		<item>
 		<title>
 		Comment on By spite about do of allow by James Rodri		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/by-spite-about-do-of-allow/#comment-7</link>
+		<link>./../../2020/04/28/by-spite-about-do-of-allow/index.html#comment-7</link>
 
 		<dc:creator><![CDATA[James Rodri]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:16:47 +0000</pubDate>
@@ -125,7 +125,7 @@ An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimat
 		<item>
 		<title>
 		Comment on By spite about do of allow by John Doe		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2020/04/28/by-spite-about-do-of-allow/#comment-6</link>
+		<link>./../../2020/04/28/by-spite-about-do-of-allow/index.html#comment-6</link>
 
 		<dc:creator><![CDATA[John Doe]]></dc:creator>
 		<pubDate>Tue, 28 Apr 2020 20:16:13 +0000</pubDate>

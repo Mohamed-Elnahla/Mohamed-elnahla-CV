@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2021/07/21/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2021/07/21/hello-world/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Planning Engineer , Structural BIM Modeler</description>
 	<lastBuildDate>Wed, 21 Jul 2021 16:26:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		By: A WordPress Commenter		</title>
-		<link>/https://mohamed-elnahla.github.io/Mohamed-elnahla-CV/2021/07/21/hello-world/#comment-1</link>
+		<link>./../index.html#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Wed, 21 Jul 2021 16:26:50 +0000</pubDate>
