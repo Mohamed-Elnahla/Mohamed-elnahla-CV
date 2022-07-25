@@ -1,20 +1,18 @@
 /*!
 Theme Name: ryancv
-Theme URI: https://ryancv.bslthemes.com/
-Author: beshleyua
-Author URI: https://themeforest.net/user/beshleyua
-Description: RyanCV - Resume / CV / vCard / Personal Portfolio WordPress Theme
-Version: 2.0.7
+Theme URI: https://bslthemes.com/ryancv/intro/
+Author: bslthemes
+Author URI: https://themeforest.net/user/bslthemes
+Description: RyanCV - CV Resume WordPress Theme
+Requires at least: 4.9
+Requires PHP: 5.2.4
+Tested up to: 5.9
+Version: 2.1.8
 License: General Public License
 License URI: http://www.gnu.org/licenses/gpl.html
 Text Domain: ryancv
-Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options 
+Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options
 */
-
-/**
-*	 Ryan (HTML)
-*	 Copyright © Ryan by beshleyua. All Rights Reserved.
-**/
 
 /*
 	Basic
@@ -62,8 +60,8 @@ body {
 	border-radius: 6px;
 }
 
-.card-inner .card-wrap, 
-.content-sidebar .sidebar-wrap, 
+.card-inner .card-wrap,
+.content-sidebar .sidebar-wrap,
 .profile .main-menu-fixed .main-menu {
 	height: 100%;
 	overflow: auto;
@@ -436,7 +434,7 @@ body {
 /*
 	Preloader
 */
-.preloader, 
+.preloader,
 .preloader-popup {
 	position: fixed;
 	top: 0;
@@ -454,7 +452,7 @@ body {
 	height: 100vh;
 }
 
-.preloader .spinner, 
+.preloader .spinner,
 .preloader-popup .spinner {
 	position: relative;
 	display: inline-block;
@@ -721,11 +719,11 @@ input[type="submit"] {
 	background: #78cc6d;
 }
 
-.lnk.lnk-view-menu .ion, 
-.button.lnk-view-menu .ion, 
-.lnk.lnk-view-menu .arrow, 
+.lnk.lnk-view-menu .ion,
+.button.lnk-view-menu .ion,
+.lnk.lnk-view-menu .arrow,
 .button.lnk-view-menu .arrow,
-.lnk.lnk-view-menu .fa, 
+.lnk.lnk-view-menu .fa,
 .button.lnk-view-menu .fa {
 	font-size: 20px;
 	transition: all 0.3s ease 0s;
@@ -738,11 +736,11 @@ input[type="submit"] {
 	-o-transform: rotate(0deg);
 }
 
-.default-menu-open .lnk.lnk-view-menu .ion, 
-.default-menu-open .button.lnk-view-menu .ion, 
-.default-menu-open .lnk.lnk-view-menu .arrow, 
+.default-menu-open .lnk.lnk-view-menu .ion,
+.default-menu-open .button.lnk-view-menu .ion,
+.default-menu-open .lnk.lnk-view-menu .arrow,
 .default-menu-open .button.lnk-view-menu .arrow,
-.default-menu-open .lnk.lnk-view-menu .fa, 
+.default-menu-open .lnk.lnk-view-menu .fa,
 .default-menu-open .button.lnk-view-menu .fa {
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
@@ -1449,7 +1447,7 @@ dd {
 }
 
 .header .top-menu ul li a {
-	padding: 13px 3px;
+	padding: 12px 3px;
 	position: relative;
 	overflow: hidden;
 	display: block;
@@ -1623,7 +1621,7 @@ dd {
 	width: 100%;
 }
 
-.header .profile .subtitle, 
+.header .profile .subtitle,
 .header .profile .typed-cursor {
 	margin: 0;
 	display: inline-block;
@@ -1851,7 +1849,7 @@ dd {
 	-khtml-border-radius: 4px;
 }
 
-.card-started .profile, 
+.card-started .profile,
 .content-sidebar .profile {
 	padding: 0;
 	position: relative;
@@ -1871,7 +1869,7 @@ dd {
 	/* padding-top: 360px; */
 }
 
-.card-started .profile .profile-content, 
+.card-started .profile .profile-content,
 .content-sidebar .profile .profile-content {
 	padding: 50px;
 	position: relative;
@@ -1996,9 +1994,9 @@ dd {
 	font-weight: 400;
 }
 
-.card-started .profile .subtitle, 
-.content-sidebar .profile .subtitle, 
-.content-sidebar .profile .typed-cursor, 
+.card-started .profile .subtitle,
+.content-sidebar .profile .subtitle,
+.content-sidebar .profile .typed-cursor,
 .card-started .profile .typed-cursor {
 	position: relative;
 	margin: 0;
@@ -2033,12 +2031,12 @@ dd {
 	vertical-align: middle;
 }
 
-.card-started .profile .social a .ion, 
-.card-started .profile .social a .fab, 
+.card-started .profile .social a .ion,
+.card-started .profile .social a .fab,
 .card-started .profile .social a .fas,
 .card-started .profile .social a .fa,
-.content-sidebar .profile .social a .ion, 
-.content-sidebar .profile .social a .fab, 
+.content-sidebar .profile .social a .ion,
+.content-sidebar .profile .social a .fab,
 .content-sidebar .profile .social a .fas,
 .content-sidebar .profile .social a .fa {
 	font-size: 16px;
@@ -2049,12 +2047,12 @@ dd {
 	-o-transition: all 0.3s ease 0s;
 }
 
-.card-started .profile .social a:hover .ion, 
-.card-started .profile .social a:hover .fab, 
+.card-started .profile .social a:hover .ion,
+.card-started .profile .social a:hover .fab,
 .card-started .profile .social a:hover .fas,
 .card-started .profile .social a:hover .fa,
-.content-sidebar .profile .social a:hover .ion, 
-.content-sidebar .profile .social a:hover .fab, 
+.content-sidebar .profile .social a:hover .ion,
+.content-sidebar .profile .social a:hover .fab,
 .content-sidebar .profile .social a:hover .fas,
 .content-sidebar .profile .social a:hover .fa {
 	color: #78cc6d;
@@ -2141,14 +2139,14 @@ dd {
 	-o-transition: all 0.3s ease 0s;
 }
 
-.profile .main-menu .menu-main-menu-container:hover ul li a, 
+.profile .main-menu .menu-main-menu-container:hover ul li a,
 .profile .main-menu .menu-main-menu-container:hover ul li a .icon {
 	color: #aaa;
 }
 
-.profile .main-menu ul li.current-menu-item a, 
-.profile .main-menu .menu-main-menu-container ul li a:hover, 
-.profile .main-menu ul li.current-menu-item a .icon, 
+.profile .main-menu ul li.current-menu-item a,
+.profile .main-menu .menu-main-menu-container ul li a:hover,
+.profile .main-menu ul li.current-menu-item a .icon,
 .profile .main-menu .menu-main-menu-container ul li a:hover .icon {
 	color: #323232;
 }
@@ -2231,7 +2229,7 @@ dd {
 	-o-transform: rotate(45deg);
 }
 
-.profile .main-menu ul li.current_page_item > a, 
+.profile .main-menu ul li.current_page_item > a,
 .profile .main-menu ul li:hover > a,
 .profile .main-menu ul li.current_page_parent > a,
 .profile .main-menu ul li.current_page_ancestor > a {
@@ -2239,13 +2237,13 @@ dd {
 	color: #78cc6d;
 }
 
-.profile .main-menu ul li.page_item_has_children.current_page_item > a:before, 
-.profile .main-menu ul li.page_item_has_children.current_page_item > a:after, 
-.profile .main-menu ul li.page_item_has_children:hover > a:before, 
+.profile .main-menu ul li.page_item_has_children.current_page_item > a:before,
+.profile .main-menu ul li.page_item_has_children.current_page_item > a:after,
+.profile .main-menu ul li.page_item_has_children:hover > a:before,
 .profile .main-menu ul li.page_item_has_children:hover > a:after,
-.profile .main-menu ul li.page_item_has_children.current_page_parent > a:before, 
+.profile .main-menu ul li.page_item_has_children.current_page_parent > a:before,
 .profile .main-menu ul li.page_item_has_children.current_page_parent > a:after,
-.profile .main-menu ul li.page_item_has_children.current_page_ancestor > a:before, 
+.profile .main-menu ul li.page_item_has_children.current_page_ancestor > a:before,
 .profile .main-menu ul li.page_item_has_children.current_page_ancestor > a:after {
 	background: #78cc6d;
 }
@@ -2943,13 +2941,19 @@ dd {
 }
 
 .client-items .client-item {
-	padding: 0;
-	font-size: 0;
-	text-align: center;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+    height: 92px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .client-items .client-item img {
-	max-width: 100%;
+	max-width: 92px;
 	opacity: 0.4;
 }
 
@@ -3227,109 +3231,109 @@ dd {
 	background: #78cc6d;
 }
 
-.skills-list.circles .progress.p51 .slice, 
-.skills-list.circles .progress.p52 .slice, 
-.skills-list.circles .progress.p53 .slice, 
-.skills-list.circles .progress.p54 .slice, 
-.skills-list.circles .progress.p55 .slice, 
-.skills-list.circles .progress.p56 .slice, 
-.skills-list.circles .progress.p57 .slice, 
-.skills-list.circles .progress.p58 .slice, 
-.skills-list.circles .progress.p59 .slice, 
-.skills-list.circles .progress.p60 .slice, 
-.skills-list.circles .progress.p61 .slice, 
-.skills-list.circles .progress.p62 .slice, 
-.skills-list.circles .progress.p63 .slice, 
-.skills-list.circles .progress.p64 .slice, 
-.skills-list.circles .progress.p65 .slice, 
-.skills-list.circles .progress.p66 .slice, 
-.skills-list.circles .progress.p67 .slice, 
-.skills-list.circles .progress.p68 .slice, 
-.skills-list.circles .progress.p69 .slice, 
-.skills-list.circles .progress.p70 .slice, 
-.skills-list.circles .progress.p71 .slice, 
-.skills-list.circles .progress.p72 .slice, 
-.skills-list.circles .progress.p73 .slice, 
-.skills-list.circles .progress.p74 .slice, 
-.skills-list.circles .progress.p75 .slice, 
-.skills-list.circles .progress.p76 .slice, 
-.skills-list.circles .progress.p77 .slice, 
-.skills-list.circles .progress.p78 .slice, 
-.skills-list.circles .progress.p79 .slice, 
-.skills-list.circles .progress.p80 .slice, 
-.skills-list.circles .progress.p81 .slice, 
-.skills-list.circles .progress.p82 .slice, 
-.skills-list.circles .progress.p83 .slice, 
-.skills-list.circles .progress.p84 .slice, 
-.skills-list.circles .progress.p85 .slice, 
-.skills-list.circles .progress.p86 .slice, 
-.skills-list.circles .progress.p87 .slice, 
-.skills-list.circles .progress.p88 .slice, 
-.skills-list.circles .progress.p89 .slice, 
-.skills-list.circles .progress.p90 .slice, 
-.skills-list.circles .progress.p91 .slice, 
-.skills-list.circles .progress.p92 .slice, 
-.skills-list.circles .progress.p93 .slice, 
-.skills-list.circles .progress.p94 .slice, 
-.skills-list.circles .progress.p95 .slice, 
-.skills-list.circles .progress.p96 .slice, 
-.skills-list.circles .progress.p97 .slice, 
-.skills-list.circles .progress.p98 .slice, 
-.skills-list.circles .progress.p99 .slice, 
+.skills-list.circles .progress.p51 .slice,
+.skills-list.circles .progress.p52 .slice,
+.skills-list.circles .progress.p53 .slice,
+.skills-list.circles .progress.p54 .slice,
+.skills-list.circles .progress.p55 .slice,
+.skills-list.circles .progress.p56 .slice,
+.skills-list.circles .progress.p57 .slice,
+.skills-list.circles .progress.p58 .slice,
+.skills-list.circles .progress.p59 .slice,
+.skills-list.circles .progress.p60 .slice,
+.skills-list.circles .progress.p61 .slice,
+.skills-list.circles .progress.p62 .slice,
+.skills-list.circles .progress.p63 .slice,
+.skills-list.circles .progress.p64 .slice,
+.skills-list.circles .progress.p65 .slice,
+.skills-list.circles .progress.p66 .slice,
+.skills-list.circles .progress.p67 .slice,
+.skills-list.circles .progress.p68 .slice,
+.skills-list.circles .progress.p69 .slice,
+.skills-list.circles .progress.p70 .slice,
+.skills-list.circles .progress.p71 .slice,
+.skills-list.circles .progress.p72 .slice,
+.skills-list.circles .progress.p73 .slice,
+.skills-list.circles .progress.p74 .slice,
+.skills-list.circles .progress.p75 .slice,
+.skills-list.circles .progress.p76 .slice,
+.skills-list.circles .progress.p77 .slice,
+.skills-list.circles .progress.p78 .slice,
+.skills-list.circles .progress.p79 .slice,
+.skills-list.circles .progress.p80 .slice,
+.skills-list.circles .progress.p81 .slice,
+.skills-list.circles .progress.p82 .slice,
+.skills-list.circles .progress.p83 .slice,
+.skills-list.circles .progress.p84 .slice,
+.skills-list.circles .progress.p85 .slice,
+.skills-list.circles .progress.p86 .slice,
+.skills-list.circles .progress.p87 .slice,
+.skills-list.circles .progress.p88 .slice,
+.skills-list.circles .progress.p89 .slice,
+.skills-list.circles .progress.p90 .slice,
+.skills-list.circles .progress.p91 .slice,
+.skills-list.circles .progress.p92 .slice,
+.skills-list.circles .progress.p93 .slice,
+.skills-list.circles .progress.p94 .slice,
+.skills-list.circles .progress.p95 .slice,
+.skills-list.circles .progress.p96 .slice,
+.skills-list.circles .progress.p97 .slice,
+.skills-list.circles .progress.p98 .slice,
+.skills-list.circles .progress.p99 .slice,
 .skills-list.circles .progress.p100 .slice {
 	clip: rect(auto, auto, auto, auto);
 }
 
-.skills-list.circles .progress .bar, 
-.skills-list.circles .progress.p51 .fill, 
-.skills-list.circles .progress.p52 .fill, 
-.skills-list.circles .progress.p53 .fill, 
-.skills-list.circles .progress.p54 .fill, 
-.skills-list.circles .progress.p55 .fill, 
-.skills-list.circles .progress.p56 .fill, 
-.skills-list.circles .progress.p57 .fill, 
-.skills-list.circles .progress.p58 .fill, 
-.skills-list.circles .progress.p59 .fill, 
-.skills-list.circles .progress.p60 .fill, 
-.skills-list.circles .progress.p61 .fill, 
-.skills-list.circles .progress.p62 .fill, 
-.skills-list.circles .progress.p63 .fill, 
-.skills-list.circles .progress.p64 .fill, 
-.skills-list.circles .progress.p65 .fill, 
-.skills-list.circles .progress.p66 .fill, 
-.skills-list.circles .progress.p67 .fill, 
-.skills-list.circles .progress.p68 .fill, 
-.skills-list.circles .progress.p69 .fill, 
-.skills-list.circles .progress.p70 .fill, 
-.skills-list.circles .progress.p71 .fill, 
-.skills-list.circles .progress.p72 .fill, 
-.skills-list.circles .progress.p73 .fill, 
-.skills-list.circles .progress.p74 .fill, 
-.skills-list.circles .progress.p75 .fill, 
-.skills-list.circles .progress.p76 .fill, 
-.skills-list.circles .progress.p77 .fill, 
-.skills-list.circles .progress.p78 .fill, 
-.skills-list.circles .progress.p79 .fill, 
-.skills-list.circles .progress.p80 .fill, 
-.skills-list.circles .progress.p81 .fill, 
-.skills-list.circles .progress.p82 .fill, 
-.skills-list.circles .progress.p83 .fill, 
-.skills-list.circles .progress.p84 .fill, 
-.skills-list.circles .progress.p85 .fill, 
-.skills-list.circles .progress.p86 .fill, 
-.skills-list.circles .progress.p87 .fill, 
-.skills-list.circles .progress.p88 .fill, 
-.skills-list.circles .progress.p89 .fill, 
-.skills-list.circles .progress.p90 .fill, 
-.skills-list.circles .progress.p91 .fill, 
-.skills-list.circles .progress.p92 .fill, 
-.skills-list.circles .progress.p93 .fill, 
-.skills-list.circles .progress.p94 .fill, 
-.skills-list.circles .progress.p95 .fill, 
-.skills-list.circles .progress.p96 .fill, 
-.skills-list.circles .progress.p97 .fill, 
-.skills-list.circles .progress.p98 .fill, 
-.skills-list.circles .progress.p99 .fill, 
+.skills-list.circles .progress .bar,
+.skills-list.circles .progress.p51 .fill,
+.skills-list.circles .progress.p52 .fill,
+.skills-list.circles .progress.p53 .fill,
+.skills-list.circles .progress.p54 .fill,
+.skills-list.circles .progress.p55 .fill,
+.skills-list.circles .progress.p56 .fill,
+.skills-list.circles .progress.p57 .fill,
+.skills-list.circles .progress.p58 .fill,
+.skills-list.circles .progress.p59 .fill,
+.skills-list.circles .progress.p60 .fill,
+.skills-list.circles .progress.p61 .fill,
+.skills-list.circles .progress.p62 .fill,
+.skills-list.circles .progress.p63 .fill,
+.skills-list.circles .progress.p64 .fill,
+.skills-list.circles .progress.p65 .fill,
+.skills-list.circles .progress.p66 .fill,
+.skills-list.circles .progress.p67 .fill,
+.skills-list.circles .progress.p68 .fill,
+.skills-list.circles .progress.p69 .fill,
+.skills-list.circles .progress.p70 .fill,
+.skills-list.circles .progress.p71 .fill,
+.skills-list.circles .progress.p72 .fill,
+.skills-list.circles .progress.p73 .fill,
+.skills-list.circles .progress.p74 .fill,
+.skills-list.circles .progress.p75 .fill,
+.skills-list.circles .progress.p76 .fill,
+.skills-list.circles .progress.p77 .fill,
+.skills-list.circles .progress.p78 .fill,
+.skills-list.circles .progress.p79 .fill,
+.skills-list.circles .progress.p80 .fill,
+.skills-list.circles .progress.p81 .fill,
+.skills-list.circles .progress.p82 .fill,
+.skills-list.circles .progress.p83 .fill,
+.skills-list.circles .progress.p84 .fill,
+.skills-list.circles .progress.p85 .fill,
+.skills-list.circles .progress.p86 .fill,
+.skills-list.circles .progress.p87 .fill,
+.skills-list.circles .progress.p88 .fill,
+.skills-list.circles .progress.p89 .fill,
+.skills-list.circles .progress.p90 .fill,
+.skills-list.circles .progress.p91 .fill,
+.skills-list.circles .progress.p92 .fill,
+.skills-list.circles .progress.p93 .fill,
+.skills-list.circles .progress.p94 .fill,
+.skills-list.circles .progress.p95 .fill,
+.skills-list.circles .progress.p96 .fill,
+.skills-list.circles .progress.p97 .fill,
+.skills-list.circles .progress.p98 .fill,
+.skills-list.circles .progress.p99 .fill,
 .skills-list.circles .progress.p100 .fill {
 	position: absolute;
 	width: 0.82em;
@@ -3342,105 +3346,105 @@ dd {
 	transform: rotate(0deg);
 }
 
-.skills-list.circles .progress.p51 .bar:after, 
-.skills-list.circles .progress.p51 .fill, 
-.skills-list.circles .progress.p52 .bar:after, 
-.skills-list.circles .progress.p52 .fill, 
-.skills-list.circles .progress.p53 .bar:after, 
-.skills-list.circles .progress.p53 .fill, 
-.skills-list.circles .progress.p54 .bar:after, 
-.skills-list.circles .progress.p54 .fill, 
-.skills-list.circles .progress.p55 .bar:after, 
-.skills-list.circles .progress.p55 .fill, 
-.skills-list.circles .progress.p56 .bar:after, 
-.skills-list.circles .progress.p56 .fill, 
-.skills-list.circles .progress.p57 .bar:after, 
-.skills-list.circles .progress.p57 .fill, 
-.skills-list.circles .progress.p58 .bar:after, 
-.skills-list.circles .progress.p58 .fill, 
-.skills-list.circles .progress.p59 .bar:after, 
-.skills-list.circles .progress.p59 .fill, 
-.skills-list.circles .progress.p60 .bar:after, 
-.skills-list.circles .progress.p60 .fill, 
-.skills-list.circles .progress.p61 .bar:after, 
-.skills-list.circles .progress.p61 .fill, 
-.skills-list.circles .progress.p62 .bar:after, 
-.skills-list.circles .progress.p62 .fill, 
-.skills-list.circles .progress.p63 .bar:after, 
-.skills-list.circles .progress.p63 .fill, 
-.skills-list.circles .progress.p64 .bar:after, 
-.skills-list.circles .progress.p64 .fill, 
-.skills-list.circles .progress.p65 .bar:after, 
-.skills-list.circles .progress.p65 .fill, 
-.skills-list.circles .progress.p66 .bar:after, 
-.skills-list.circles .progress.p66 .fill, 
-.skills-list.circles .progress.p67 .bar:after, 
-.skills-list.circles .progress.p67 .fill, 
-.skills-list.circles .progress.p68 .bar:after, 
-.skills-list.circles .progress.p68 .fill, 
-.skills-list.circles .progress.p69 .bar:after, 
-.skills-list.circles .progress.p69 .fill, 
-.skills-list.circles .progress.p70 .bar:after, 
-.skills-list.circles .progress.p70 .fill, 
-.skills-list.circles .progress.p71 .bar:after, 
-.skills-list.circles .progress.p71 .fill, 
-.skills-list.circles .progress.p72 .bar:after, 
-.skills-list.circles .progress.p72 .fill, 
-.skills-list.circles .progress.p73 .bar:after, 
-.skills-list.circles .progress.p73 .fill, 
-.skills-list.circles .progress.p74 .bar:after, 
-.skills-list.circles .progress.p74 .fill, 
-.skills-list.circles .progress.p75 .bar:after, 
-.skills-list.circles .progress.p75 .fill, 
-.skills-list.circles .progress.p76 .bar:after, 
-.skills-list.circles .progress.p76 .fill, 
-.skills-list.circles .progress.p77 .bar:after, 
-.skills-list.circles .progress.p77 .fill, 
-.skills-list.circles .progress.p78 .bar:after, 
-.skills-list.circles .progress.p78 .fill, 
-.skills-list.circles .progress.p79 .bar:after, 
-.skills-list.circles .progress.p79 .fill, 
-.skills-list.circles .progress.p80 .bar:after, 
-.skills-list.circles .progress.p80 .fill, 
-.skills-list.circles .progress.p81 .bar:after, 
-.skills-list.circles .progress.p81 .fill, 
-.skills-list.circles .progress.p82 .bar:after, 
-.skills-list.circles .progress.p82 .fill, 
-.skills-list.circles .progress.p83 .bar:after, 
-.skills-list.circles .progress.p83 .fill, 
-.skills-list.circles .progress.p84 .bar:after, 
-.skills-list.circles .progress.p84 .fill, 
-.skills-list.circles .progress.p85 .bar:after, 
-.skills-list.circles .progress.p85 .fill, 
-.skills-list.circles .progress.p86 .bar:after, 
-.skills-list.circles .progress.p86 .fill, 
-.skills-list.circles .progress.p87 .bar:after, 
-.skills-list.circles .progress.p87 .fill, 
-.skills-list.circles .progress.p88 .bar:after, 
-.skills-list.circles .progress.p88 .fill, 
-.skills-list.circles .progress.p89 .bar:after, 
-.skills-list.circles .progress.p89 .fill, 
-.skills-list.circles .progress.p90 .bar:after, 
-.skills-list.circles .progress.p90 .fill, 
-.skills-list.circles .progress.p91 .bar:after, 
-.skills-list.circles .progress.p91 .fill, 
-.skills-list.circles .progress.p92 .bar:after, 
-.skills-list.circles .progress.p92 .fill, 
-.skills-list.circles .progress.p93 .bar:after, 
-.skills-list.circles .progress.p93 .fill, 
-.skills-list.circles .progress.p94 .bar:after, 
-.skills-list.circles .progress.p94 .fill, 
-.skills-list.circles .progress.p95 .bar:after, 
-.skills-list.circles .progress.p95 .fill, 
-.skills-list.circles .progress.p96 .bar:after, 
-.skills-list.circles .progress.p96 .fill, 
-.skills-list.circles .progress.p97 .bar:after, 
-.skills-list.circles .progress.p97 .fill, 
-.skills-list.circles .progress.p98 .bar:after, 
-.skills-list.circles .progress.p98 .fill, 
-.skills-list.circles .progress.p99 .bar:after, 
-.skills-list.circles .progress.p99 .fill, 
-.skills-list.circles .progress.p100 .bar:after, 
+.skills-list.circles .progress.p51 .bar:after,
+.skills-list.circles .progress.p51 .fill,
+.skills-list.circles .progress.p52 .bar:after,
+.skills-list.circles .progress.p52 .fill,
+.skills-list.circles .progress.p53 .bar:after,
+.skills-list.circles .progress.p53 .fill,
+.skills-list.circles .progress.p54 .bar:after,
+.skills-list.circles .progress.p54 .fill,
+.skills-list.circles .progress.p55 .bar:after,
+.skills-list.circles .progress.p55 .fill,
+.skills-list.circles .progress.p56 .bar:after,
+.skills-list.circles .progress.p56 .fill,
+.skills-list.circles .progress.p57 .bar:after,
+.skills-list.circles .progress.p57 .fill,
+.skills-list.circles .progress.p58 .bar:after,
+.skills-list.circles .progress.p58 .fill,
+.skills-list.circles .progress.p59 .bar:after,
+.skills-list.circles .progress.p59 .fill,
+.skills-list.circles .progress.p60 .bar:after,
+.skills-list.circles .progress.p60 .fill,
+.skills-list.circles .progress.p61 .bar:after,
+.skills-list.circles .progress.p61 .fill,
+.skills-list.circles .progress.p62 .bar:after,
+.skills-list.circles .progress.p62 .fill,
+.skills-list.circles .progress.p63 .bar:after,
+.skills-list.circles .progress.p63 .fill,
+.skills-list.circles .progress.p64 .bar:after,
+.skills-list.circles .progress.p64 .fill,
+.skills-list.circles .progress.p65 .bar:after,
+.skills-list.circles .progress.p65 .fill,
+.skills-list.circles .progress.p66 .bar:after,
+.skills-list.circles .progress.p66 .fill,
+.skills-list.circles .progress.p67 .bar:after,
+.skills-list.circles .progress.p67 .fill,
+.skills-list.circles .progress.p68 .bar:after,
+.skills-list.circles .progress.p68 .fill,
+.skills-list.circles .progress.p69 .bar:after,
+.skills-list.circles .progress.p69 .fill,
+.skills-list.circles .progress.p70 .bar:after,
+.skills-list.circles .progress.p70 .fill,
+.skills-list.circles .progress.p71 .bar:after,
+.skills-list.circles .progress.p71 .fill,
+.skills-list.circles .progress.p72 .bar:after,
+.skills-list.circles .progress.p72 .fill,
+.skills-list.circles .progress.p73 .bar:after,
+.skills-list.circles .progress.p73 .fill,
+.skills-list.circles .progress.p74 .bar:after,
+.skills-list.circles .progress.p74 .fill,
+.skills-list.circles .progress.p75 .bar:after,
+.skills-list.circles .progress.p75 .fill,
+.skills-list.circles .progress.p76 .bar:after,
+.skills-list.circles .progress.p76 .fill,
+.skills-list.circles .progress.p77 .bar:after,
+.skills-list.circles .progress.p77 .fill,
+.skills-list.circles .progress.p78 .bar:after,
+.skills-list.circles .progress.p78 .fill,
+.skills-list.circles .progress.p79 .bar:after,
+.skills-list.circles .progress.p79 .fill,
+.skills-list.circles .progress.p80 .bar:after,
+.skills-list.circles .progress.p80 .fill,
+.skills-list.circles .progress.p81 .bar:after,
+.skills-list.circles .progress.p81 .fill,
+.skills-list.circles .progress.p82 .bar:after,
+.skills-list.circles .progress.p82 .fill,
+.skills-list.circles .progress.p83 .bar:after,
+.skills-list.circles .progress.p83 .fill,
+.skills-list.circles .progress.p84 .bar:after,
+.skills-list.circles .progress.p84 .fill,
+.skills-list.circles .progress.p85 .bar:after,
+.skills-list.circles .progress.p85 .fill,
+.skills-list.circles .progress.p86 .bar:after,
+.skills-list.circles .progress.p86 .fill,
+.skills-list.circles .progress.p87 .bar:after,
+.skills-list.circles .progress.p87 .fill,
+.skills-list.circles .progress.p88 .bar:after,
+.skills-list.circles .progress.p88 .fill,
+.skills-list.circles .progress.p89 .bar:after,
+.skills-list.circles .progress.p89 .fill,
+.skills-list.circles .progress.p90 .bar:after,
+.skills-list.circles .progress.p90 .fill,
+.skills-list.circles .progress.p91 .bar:after,
+.skills-list.circles .progress.p91 .fill,
+.skills-list.circles .progress.p92 .bar:after,
+.skills-list.circles .progress.p92 .fill,
+.skills-list.circles .progress.p93 .bar:after,
+.skills-list.circles .progress.p93 .fill,
+.skills-list.circles .progress.p94 .bar:after,
+.skills-list.circles .progress.p94 .fill,
+.skills-list.circles .progress.p95 .bar:after,
+.skills-list.circles .progress.p95 .fill,
+.skills-list.circles .progress.p96 .bar:after,
+.skills-list.circles .progress.p96 .fill,
+.skills-list.circles .progress.p97 .bar:after,
+.skills-list.circles .progress.p97 .fill,
+.skills-list.circles .progress.p98 .bar:after,
+.skills-list.circles .progress.p98 .fill,
+.skills-list.circles .progress.p99 .bar:after,
+.skills-list.circles .progress.p99 .fill,
+.skills-list.circles .progress.p100 .bar:after,
 .skills-list.circles .progress.p100 .fill {
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
@@ -4276,15 +4280,16 @@ dd {
 .revs-item .user .img {
 	margin: 0 auto;
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 92px;
+	height: 92px;
 }
 
 .revs-item .user .img img {
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .revs-item .info .name {
@@ -5303,7 +5308,7 @@ a.next.page-numbers:hover {
 	display: block;
 }
 
-.post-comments .post-comment .desc .comment-time, 
+.post-comments .post-comment .desc .comment-time,
 .post-comments .post-comment .desc .comment-date {
 	margin: 0 7px 0 0;
 	padding: 0;
@@ -5457,7 +5462,7 @@ a.next.page-numbers:hover {
 	margin-bottom: 10px;
 }
 
-.comments .title.comment-reply-title:before, 
+.comments .title.comment-reply-title:before,
 .comments .title.comment-reply-title:after {
 	display: none;
 }
@@ -5744,7 +5749,7 @@ a.next.page-numbers:hover {
 	-o-transform: rotate(45deg);
 }
 
-.content-sidebar .main-menu ul li.current_page_item > a, 
+.content-sidebar .main-menu ul li.current_page_item > a,
 .content-sidebar .main-menu ul li:hover > a,
 .content-sidebar .main-menu ul li.current_page_parent > a,
 .content-sidebar .main-menu ul li.current_page_ancestor > a {
@@ -5752,13 +5757,13 @@ a.next.page-numbers:hover {
 	color: #78cc6d;
 }
 
-.content-sidebar .main-menu ul li.page_item_has_children.current_page_item > a:before, 
-.content-sidebar .main-menu ul li.page_item_has_children.current_page_item > a:after, 
-.content-sidebar .main-menu ul li.page_item_has_children:hover > a:before, 
+.content-sidebar .main-menu ul li.page_item_has_children.current_page_item > a:before,
+.content-sidebar .main-menu ul li.page_item_has_children.current_page_item > a:after,
+.content-sidebar .main-menu ul li.page_item_has_children:hover > a:before,
 .content-sidebar .main-menu ul li.page_item_has_children:hover > a:after,
-.content-sidebar .main-menu ul li.page_item_has_children.current_page_parent > a:before, 
+.content-sidebar .main-menu ul li.page_item_has_children.current_page_parent > a:before,
 .content-sidebar .main-menu ul li.page_item_has_children.current_page_parent > a:after,
-.content-sidebar .main-menu ul li.page_item_has_children.current_page_ancestor > a:before, 
+.content-sidebar .main-menu ul li.page_item_has_children.current_page_ancestor > a:before,
 .content-sidebar .main-menu ul li.page_item_has_children.current_page_ancestor > a:after {
 	background: #78cc6d;
 }
@@ -6131,7 +6136,7 @@ p.no-comments {
 	.post-comments .post-comment .desc .name a {
 		display: block;
 	}
-	.post-comments .post-comment .desc .comment-time, 
+	.post-comments .post-comment .desc .comment-time,
 	.post-comments .post-comment .desc .comment-date {
 		margin: 0;
 	}
@@ -6304,7 +6309,7 @@ p.no-comments {
 	}
 }
 
-/* 
+/*
 	SimpleCard Styles
 */
 
@@ -6414,7 +6419,7 @@ p.no-comments {
 	}
 }
 
-/* 
+/*
 	New Resume Styles
 */
 
@@ -6438,7 +6443,7 @@ p.no-comments {
 	clear: both;
 }
 
-/* 
+/*
 	New Popup Styles
 */
 
@@ -6450,7 +6455,7 @@ p.no-comments {
 	margin-top: 0;
 }
 
-/* 
+/*
 	New Calendar Styles
 */
 
@@ -6467,7 +6472,7 @@ p.no-comments {
 	text-decoration: none;
 }
 
-/* 
+/*
 	New Preloader Styles
 */
 
@@ -6577,8 +6582,8 @@ p.no-comments {
 	-webkit-border-radius: 50%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	border-top-color: #78cc6d;
-	animation: momentum 2s linear infinite; 
-	-webkit-animation: momentum 2s linear infinite; 
+	animation: momentum 2s linear infinite;
+	-webkit-animation: momentum 2s linear infinite;
 }
 
 .preloader .spinner.quantum-spinner:before {
@@ -6640,8 +6645,8 @@ p.no-comments {
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-top-color: transparent;
-	animation: recursive-circle 1s linear infinite reverse; 
-	-webkit-animation: recursive-circle 1s linear infinite reverse; 
+	animation: recursive-circle 1s linear infinite reverse;
+	-webkit-animation: recursive-circle 1s linear infinite reverse;
 }
 
 @keyframes circle-loader {
@@ -6664,43 +6669,43 @@ p.no-comments {
 
 @keyframes rect-rotate {
 	0% {
-		transform: rotate(0); 
+		transform: rotate(0);
 	}
 	50%, 100% {
-		transform: rotate(360deg); 
-	} 
+		transform: rotate(360deg);
+	}
 }
 
 @-webkit-keyframes rect-rotate {
 	0% {
-		transform: rotate(0); 
+		transform: rotate(0);
 	}
 	50%, 100% {
-		transform: rotate(360deg); 
-	} 
+		transform: rotate(360deg);
+	}
 }
 
 @keyframes fill-rect {
 	0%, 50% {
-		height: 0px; 
+		height: 0px;
 	}
 	100% {
-		height: inherit; 
-	} 
+		height: inherit;
+	}
 }
 
 @-webkit-keyframes fill-rect {
 	0%, 50% {
-		height: 0px; 
+		height: 0px;
 	}
 	100% {
-		height: inherit; 
-	} 
+		height: inherit;
+	}
 }
 
 @keyframes momentum {
-	0% { 
-		transform: rotate(0deg);  
+	0% {
+		transform: rotate(0deg);
 	}
 	100% {
 		transform: rotate(-360deg);
@@ -6708,8 +6713,8 @@ p.no-comments {
 }
 
 @-webkit-keyframes momentum {
-	0% { 
-		transform: rotate(0deg);  
+	0% {
+		transform: rotate(0deg);
 	}
 	100% {
 		transform: rotate(-360deg);
@@ -6718,23 +6723,23 @@ p.no-comments {
 
 @keyframes recursive-circle {
 	0% {
-		transform: rotate(0); 
+		transform: rotate(0);
 	}
 	100% {
-		transform: rotate(360deg); 
-	} 
+		transform: rotate(360deg);
+	}
 }
 
 @-webkit-keyframes recursive-circle {
 	0% {
-		transform: rotate(0); 
+		transform: rotate(0);
 	}
 	100% {
-		transform: rotate(360deg); 
-	} 
+		transform: rotate(360deg);
+	}
 }
 
-/* 
+/*
 	New Contacts Styles
 */
 
@@ -6842,18 +6847,18 @@ ul.product_list_widget li a.remove {
 	display: none;
 }
 
-.woocommerce ul.cart_list, 
+.woocommerce ul.cart_list,
 .woocommerce ul.product_list_widget,
-ul.cart_list li, 
+ul.cart_list li,
 ul.product_list_widget {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.woocommerce ul.cart_list li a, 
+.woocommerce ul.cart_list li a,
 .woocommerce ul.product_list_widget li a,
-ul.cart_list li a, 
+ul.cart_list li a,
 ul.product_list_widget li a {
 	display: block;
 	font-weight: 700;
@@ -6861,9 +6866,9 @@ ul.product_list_widget li a {
 	color: #323232;
 }
 
-.woocommerce ul.cart_list li img, 
+.woocommerce ul.cart_list li img,
 .woocommerce ul.product_list_widget li img,
-ul.cart_list li img, 
+ul.cart_list li img,
 ul.product_list_widget li img {
 	float: right;
 	margin-left: 15px;
@@ -6871,16 +6876,16 @@ ul.product_list_widget li img {
 	height: auto;
 }
 
-ul.cart_list li::after, 
-ul.cart_list li::before, 
-ul.product_list_widget li::after, 
+ul.cart_list li::after,
+ul.cart_list li::before,
+ul.product_list_widget li::after,
 ul.product_list_widget li::before {
     content: ' ';
     clear: both;
     display: table;
 }
 
-ul.cart_list li, 
+ul.cart_list li,
 ul.product_list_widget li {
     padding: 4px 0;
 }
@@ -6903,13 +6908,13 @@ ul.product_list_widget li {
 	visibility: visible;
 }
 
-.woocommerce #respond input#submit, 
-.woocommerce a.button, 
-.woocommerce button.button, 
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
 .woocommerce input.button
-.woocommerce-mini-cart__buttons #respond input#submit, 
-.woocommerce-mini-cart__buttons a.button, 
-.woocommerce-mini-cart__buttons button.button, 
+.woocommerce-mini-cart__buttons #respond input#submit,
+.woocommerce-mini-cart__buttons a.button,
+.woocommerce-mini-cart__buttons button.button,
 .woocommerce-mini-cart__buttons input.button {
 	padding: 0 30px;
 	display: inline-block;
@@ -6931,20 +6936,20 @@ ul.product_list_widget li {
 	-webkit-transition: all .3s ease 0s;
 }
 
-.woocommerce #respond input#submit:hover, 
-.woocommerce a.button:hover, 
-.woocommerce button.button:hover, 
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
 .woocommerce input.button:hover,
-.woocommerce-mini-cart__buttons #respond input#submit:hover, 
-.woocommerce-mini-cart__buttons a.button:hover, 
-.woocommerce-mini-cart__buttons button.button:hover, 
+.woocommerce-mini-cart__buttons #respond input#submit:hover,
+.woocommerce-mini-cart__buttons a.button:hover,
+.woocommerce-mini-cart__buttons button.button:hover,
 .woocommerce-mini-cart__buttons input.button:hover {
     background-color: #dfdcde;
     color: #515151;
 }
 
-.woocommerce-error, 
-.woocommerce-info, 
+.woocommerce-error,
+.woocommerce-info,
 .woocommerce-message {
 	padding: 0 0 0 30px;
 	margin: 0 0 30px 0;
@@ -6953,8 +6958,8 @@ ul.product_list_widget li {
 	border-top: none;
 }
 
-.woocommerce-error:before, 
-.woocommerce-info:before, 
+.woocommerce-error:before,
+.woocommerce-info:before,
 .woocommerce-message:before {
 	font-family: "Ionicons";
 	content: "\f149";
@@ -6995,24 +7000,24 @@ ul.product_list_widget li {
 	-webkit-box-shadow: none!important;
 }
 
-.woocommerce .products ul, 
+.woocommerce .products ul,
 .woocommerce ul.products {
 	margin: 0 -30px;
 	margin-top: -1px;
 }
 
-.woocommerce ul.products li.product, 
+.woocommerce ul.products li.product,
 .woocommerce-page ul.products li.product,
-.woocommerce ul.products.columns-2 li.product, 
+.woocommerce ul.products.columns-2 li.product,
 .woocommerce-page ul.products.columns-2 li.product,
-.woocommerce ul.products.columns-3 li.product, 
+.woocommerce ul.products.columns-3 li.product,
 .woocommerce-page ul.products.columns-3 li.product,
-.woocommerce ul.products.columns-4 li.product, 
+.woocommerce ul.products.columns-4 li.product,
 .woocommerce-page ul.products.columns-4 li.product {
 	width: 49.998%;
 }
 
-.woocommerce ul.products li.product, 
+.woocommerce ul.products li.product,
 .woocommerce-page ul.products li.product {
 	position: relative;
 	margin: 0;
@@ -7081,8 +7086,8 @@ ul.product_list_widget li {
 	margin: 0 0 15px 0;
 }
 
-.woocommerce ul.products li.product .woocommerce-loop-category__title, 
-.woocommerce ul.products li.product .woocommerce-loop-product__title, 
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
 .woocommerce ul.products li.product h3 {
 	padding: 0 0 5px 0;
 	margin: 0 70px 0 0;
@@ -7151,15 +7156,15 @@ ul.product_list_widget li {
     overflow: visible;
 }
 
-.woocommerce nav.woocommerce-pagination ul li a, 
+.woocommerce nav.woocommerce-pagination ul li a,
 .woocommerce nav.woocommerce-pagination ul li span {
 	padding: 0 5px;
 	min-width: 16px;
 	height: 16px;
 }
 
-.woocommerce nav.woocommerce-pagination ul li a:focus, 
-.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
 	background: none;
 	color: #78cc6d;
@@ -7173,9 +7178,9 @@ ul.product_list_widget li {
 	min-width: 20px;
 }
 
-.woocommerce #content div.product div.images, 
-.woocommerce div.product div.images, 
-.woocommerce-page #content div.product div.images, 
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
 .woocommerce-page div.product div.images {
 	float: left;
 	width: 44%;
@@ -7185,9 +7190,9 @@ ul.product_list_widget li {
 	margin-bottom: 30px;
 }
 
-.woocommerce #content div.product div.summary, 
-.woocommerce div.product div.summary, 
-.woocommerce-page #content div.product div.summary, 
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
 .woocommerce-page div.product div.summary {
 	padding-left: 30px;
 	float: right;
@@ -7204,14 +7209,14 @@ ul.product_list_widget li {
 	top: 15px;
 }
 
-.woocommerce div.product p.price, 
+.woocommerce div.product p.price,
 .woocommerce div.product span.price {
 	color: #323232;
 	font-size: 1.5em;
 	line-height: 1;
 }
 
-.woocommerce div.product p.price del, 
+.woocommerce div.product p.price del,
 .woocommerce div.product span.price del {
 	opacity: .5;
 	margin-right: 5px;
@@ -7219,16 +7224,16 @@ ul.product_list_widget li {
 	font-size: 16px;
 }
 
-.woocommerce #respond input#submit.alt, 
-.woocommerce a.button.alt, 
-.woocommerce button.button.alt, 
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
 .woocommerce input.button.alt {
 	background: #78cc6d;
 }
 
-.woocommerce #respond input#submit.alt:hover, 
-.woocommerce a.button.alt:hover, 
-.woocommerce button.button.alt:hover, 
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
 .woocommerce input.button.alt:hover {
 	background: #78cc6d;
 	opacity: 0.7;
@@ -7458,7 +7463,7 @@ td {
 }
 
 #add_payment_method table.cart img,
-.woocommerce-cart table.cart img, 
+.woocommerce-cart table.cart img,
 .woocommerce-checkout table.cart img {
 	width: 70px;
 }
@@ -7467,31 +7472,31 @@ td {
 	margin-bottom: 30px;
 }
 
-.woocommerce .cart-collaterals .cart_totals, 
+.woocommerce .cart-collaterals .cart_totals,
 .woocommerce-page .cart-collaterals .cart_totals {
 	float: none;
 	width: auto;
 }
 
-#add_payment_method .wc-proceed-to-checkout a.checkout-button, 
-.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
 .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
 	margin-bottom: 20px;
 	font-size: 1em;
 	padding: 0;
 }
 
-.woocommerce #respond input#submit.disabled, 
-.woocommerce #respond input#submit:disabled, 
-.woocommerce #respond input#submit:disabled[disabled], 
-.woocommerce a.button.disabled, 
-.woocommerce a.button:disabled, 
-.woocommerce a.button:disabled[disabled], 
-.woocommerce button.button.disabled, 
-.woocommerce button.button:disabled, 
-.woocommerce button.button:disabled[disabled], 
-.woocommerce input.button.disabled, 
-.woocommerce input.button:disabled, 
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
 .woocommerce input.button:disabled[disabled] {
 	padding: 0 30px;
 }
@@ -7509,21 +7514,21 @@ td {
 	color: #fff;
 }
 
-.woocommerce .col2-set .col-1, 
+.woocommerce .col2-set .col-1,
 .woocommerce-page .col2-set .col-1,
-.woocommerce .col-1, 
+.woocommerce .col-1,
 .woocommerce-page .col-1,
-.woocommerce .col2-set .col-2, 
+.woocommerce .col2-set .col-2,
 .woocommerce-page .col2-set .col-2,
-.woocommerce .col-2, 
+.woocommerce .col-2,
 .woocommerce-page .col-2 {
 	float: none;
 	width: 100%;
 }
 
-.woocommerce .col2-set .col-1, 
+.woocommerce .col2-set .col-1,
 .woocommerce-page .col2-set .col-1,
-.woocommerce .col-1, 
+.woocommerce .col-1,
 .woocommerce-page .col-1 {
 	margin-bottom: 30px;
 }
@@ -7578,8 +7583,8 @@ td {
 	margin: 0 0 15px 0;
 }
 
-.woocommerce-error li:before, 
-.woocommerce-info li:before, 
+.woocommerce-error li:before,
+.woocommerce-info li:before,
 .woocommerce-message li:before {
 	display: none;
 }
@@ -7693,7 +7698,7 @@ td {
 	text-align: center;
 }
 
-.content-sidebar .widget_shopping_cart .cart_list li, 
+.content-sidebar .widget_shopping_cart .cart_list li,
 .content-sidebar .woocommerce.widget_shopping_cart .cart_list li {
 	padding-left: 0;
 	padding-top: 10px;
@@ -7733,14 +7738,14 @@ td {
 	font-size: 20px;
 }
 
-.woocommerce .cart-collaterals .cross-sells, 
+.woocommerce .cart-collaterals .cross-sells,
 .woocommerce-page .cart-collaterals .cross-sells {
 	margin-bottom: 30px;
 	width: auto;
 	float: none;
 }
 
-.woocommerce .cart-collaterals .cross-sells li:before, 
+.woocommerce .cart-collaterals .cross-sells li:before,
 .woocommerce-page .cart-collaterals .cross-sells li:before {
 	display: none;
 }
@@ -7756,7 +7761,7 @@ td {
 	.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link a {
 		font-size: 12px;
 	}
-	.woocommerce ul.products[class*=columns-] li.product, 
+	.woocommerce ul.products[class*=columns-] li.product,
 	.woocommerce-page ul.products[class*=columns-] li.product {
 		margin: 0;
 	}
@@ -7788,41 +7793,41 @@ td {
 	.woocommerce .woocommerce-result-count {
 		margin: 0 0 10px 0;
 	}
-	.woocommerce .woocommerce-ordering, 
+	.woocommerce .woocommerce-ordering,
 	.woocommerce-page .woocommerce-ordering {
 		float: none;
 	}
-	.woocommerce ul.products li.product, 
-	.woocommerce-page ul.products li.product, 
-	.woocommerce ul.products.columns-2 li.product, 
-	.woocommerce-page ul.products.columns-2 li.product, 
-	.woocommerce ul.products.columns-3 li.product, 
-	.woocommerce-page ul.products.columns-3 li.product, 
-	.woocommerce ul.products.columns-4 li.product, 
+	.woocommerce ul.products li.product,
+	.woocommerce-page ul.products li.product,
+	.woocommerce ul.products.columns-2 li.product,
+	.woocommerce-page ul.products.columns-2 li.product,
+	.woocommerce ul.products.columns-3 li.product,
+	.woocommerce-page ul.products.columns-3 li.product,
+	.woocommerce ul.products.columns-4 li.product,
 	.woocommerce-page ul.products.columns-4 li.product {
 		width: 100%;
 	}
-	.woocommerce #content div.product div.images, 
-	.woocommerce div.product div.images, 
-	.woocommerce-page #content div.product div.images, 
+	.woocommerce #content div.product div.images,
+	.woocommerce div.product div.images,
+	.woocommerce-page #content div.product div.images,
 	.woocommerce-page div.product div.images {
 		float: none;
 		width: 100%;
 	}
-	.woocommerce #content div.product div.summary, 
-	.woocommerce div.product div.summary, 
-	.woocommerce-page #content div.product div.summary, 
+	.woocommerce #content div.product div.summary,
+	.woocommerce div.product div.summary,
+	.woocommerce-page #content div.product div.summary,
 	.woocommerce-page div.product div.summary {
 		padding-left: 0;
 		float: none;
 		width: 100%;
 	}
-	.woocommerce #respond input#submit, 
-	.woocommerce a.button, 
-	.woocommerce button.button, 
-	.woocommerce input.button .woocommerce-mini-cart__buttons #respond input#submit, 
-	.woocommerce-mini-cart__buttons a.button, 
-	.woocommerce-mini-cart__buttons button.button, 
+	.woocommerce #respond input#submit,
+	.woocommerce a.button,
+	.woocommerce button.button,
+	.woocommerce input.button .woocommerce-mini-cart__buttons #respond input#submit,
+	.woocommerce-mini-cart__buttons a.button,
+	.woocommerce-mini-cart__buttons button.button,
 	.woocommerce-mini-cart__buttons input.button {
 		padding: 0 10px;
 	}
@@ -7860,7 +7865,7 @@ td {
 }
 @media (max-width: 680px) {
 	.card-started .profile .slide video {
-		display: none !important;	
+		display: none !important;
 	}
 }
 
@@ -7897,4 +7902,55 @@ td {
 
 .dots-disabled .swiper-pagination {
 	display: none!important;
+}
+
+/* enable window scroll via custom css for woocommerce checkout */
+@media (min-width: 1120px) {
+	.woocommerce-checkout .page_wrap {
+		position: relative;
+		height: auto;
+	}
+	body.woocommerce-checkout {
+		overflow: visible;
+	}
+	.woocommerce-checkout .page_wrap .container {
+		height: auto;
+		max-height: none;
+		max-width: none;
+		top: 0 !important;
+		overflow: visible;
+	}
+	.woocommerce-checkout .card-started {
+		margin-left: 80px;
+		position: fixed;
+		top: 8vh;
+		bottom: 8vh;
+		height: 84vh;
+	}
+	.woocommerce-checkout .header {
+		position: fixed;
+		left: auto;
+		top: auto;
+	}
+	.woocommerce-checkout .card-inner {
+		padding: 0;
+		margin-left: 560px;
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: auto;
+		height: auto;
+	}
+}
+@media (max-height: 740px) {
+	.woocommerce-checkout .card-inner {
+		top: 20px;
+	}
+}
+
+body.elementor-template-canvas, body.page-template-elementor_canvas {
+height: auto;
+overflow: auto;
 }

@@ -349,7 +349,6 @@
 	
 	/* popup video */
 	$('.has-popup-video').magnificPopup({
-		disableOn: 700,
 		type: 'iframe',
 		preloader: false,
 		fixedContentPos: false,
@@ -363,7 +362,6 @@
 	
 	/* popup music */
 	$('.has-popup-music').magnificPopup({
-		disableOn: 700,
 		type: 'iframe',
 		preloader: false,
 		fixedContentPos: false,
